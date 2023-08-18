@@ -1,20 +1,22 @@
 <div align="center">
 <a href="https://matricula.vonex.edu.pe/">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 <h3 align="center">APP MATRICULA</h3>
 <p>
-Sistema de matrícula, es una aplicación dedicada al registro de inscripciones de estudiantes para la Academia Vonex. Sistema Integrado con la pasarela de pagos Culqi y la emisión de correos con las API de Google.
+Es una aplicación dedicada al registro de inscripciones de estudiantes para la Academia Vonex, Sistema Integrado con la pasarela de pagos Culqi y la emisión de correos con las API de Google.
 </p>
 </div>
 
+## ÍNDICE
 <ul>
     <li><a href="#requerimientos">Requerimientos del servidor</a></li>
-    <li><a href="#tecnologia">Tecnologías web</a></li>
+    <li><a href="#tecnologia">Tecnologías</a></li>
     <li><a href="#librerias">Librerias</a></li>
-    <li><a href="#seguridad">Seguridad web</a></li>
-    <li><a href="#modulos">Modulos</a></li>
+    <li><a href="#seguridad">Seguridad</a></li>
+    <li><a href="#modulos">Módulos</a></li>
     <li><a href="#pasarela">Pasarela de pago</a></li>
+	<li><a href="#diagrama">Diagrama de flujo</a></li>
   </ul>
 
 ## Requerimientos del servidor
@@ -61,7 +63,13 @@ Sistema de matrícula, es una aplicación dedicada al registro de inscripciones 
 	<li>SweetAlert2</li>
 	<li>Crypto-js</li>
 	<li>Toastr</li>
-  </ul>
+</ul>
+
 ## Pasarela de pago
 Culqi es una pasarela de pago  que acepta todas las tarjeta de crédito, débito y Pago efectivo.
 
+## Diagrama de flujo
+
+<div align="center">
+    <img src="diagrama.jpg" alt="Logo" width="500" height="480">
+</div>
