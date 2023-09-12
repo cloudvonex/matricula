@@ -10,7 +10,7 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
 
 ## ÍNDICE
 <ul>
-    <li><a href="#requerimientos">Requerimientos del servidor</a></li>
+    <li><a href="#requerimientos">Requerimientos</a></li>
     <li><a href="#tecnologia">Tecnologías</a></li>
     <li><a href="#librerias">Librerias</a></li>
     <li><a href="#seguridad">Seguridad</a></li>
@@ -19,7 +19,7 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
     <li><a href="#diagrama">Diagrama de flujo</a></li>
   </ul>
 
-## Requerimientos del servidor
+## REQUERIMIENTOS (SERVIDOR)
 <ul>
     <li>Php 8.1</li>
 		<ul>
@@ -50,12 +50,12 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
 		</ul>
   </ul>
 
-## Tecnologías
+## TECNOLOGÍAS
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> Laravel 10
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> Vue 3
 
-## Librerias
+## LIBRERIAS
 <ul>
     <li>Bootstrap</li>
 	<li>Font Awesome</li>
@@ -65,7 +65,7 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
 	<li>Crypto-js</li>
 </ul>
 
-## Seguridad
+## SEGURIDAD
 <p>
 <b>Header always append X-Frame-Options (SERVIDOR)</b><br>
 Para prevenir ataques de incrustación de contenido desde otros dominios.
@@ -91,17 +91,17 @@ Significa que el navegador enviará la información de referencia cuando se nave
 Encriptación de datos para la transmisión de información entre el Frontend y Backend.
 </p>
 
-## Modulos (Pasos)
+## MODULOS (PASOS)
 <p>
 La aplicación cuenta con 3 pasos, En el paso 1 es donde se obtiene los datos del alumno y boleta ya sea con el API Peru dni o manualmente luego en el paso 2 se procede con el registro del ciclo donde al ser completado quedara preinscrito y finalmente el paso 3 se procedera con el pago usando la pasarela de pago Culqi, Una vez completado el pago se generara la matricula, la creacion de su correo y se le enviara un correo con sus credenciales.
 </p>
 <ul>
 	<li>Paso 1: Registro de datos</li>
-	<li>Paso 2: Registro ciclo</li>
+	<li>Paso 2: Registro de ciclo</li>
 	<li>Paso 3: Registro de Pago</li>
 </ul>
 
-## Integración de servicios 
+## INTEGRACIÓN DE SERVICIOS
 <p>
 <b>Pasarela de pago</b>
 Culqi es una pasarela de pago que facilita el procesamiento de transacciones en línea, ofreciendo seguridad, facilidad de integración y diversas opciones de pago ya sea tarjeta de crédito, débito o Pago efectivo. 
@@ -116,7 +116,7 @@ Una API de Google OAuth permite que los desarrolladores autentiquen usuarios y o
 </p>
 
 
-## Diagrama de flujo
+## DIAGRAMA DE FLUJO
 
 <div align="center">
     <img src="diagrama.jpg" alt="Logo" width="500" height="480">
