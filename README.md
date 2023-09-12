@@ -15,7 +15,7 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
     <li><a href="#librerias">Librerias</a></li>
     <li><a href="#seguridad">Seguridad</a></li>
     <li><a href="#modulos">Módulos</a></li>
-    <li><a href="#pasarela">Pasarela de pago</a></li>
+    <li><a href="#pasarela">Integración de servicios</a></li>
     <li><a href="#diagrama">Diagrama de flujo</a></li>
   </ul>
 
@@ -87,15 +87,11 @@ Obliga al navegador a utilizar una conexión segura (HTTPS) en lugar de HTTP.
 Significa que el navegador enviará la información de referencia cuando se navega de un sitio seguro (HTTPS) a uno no seguro (HTTP).
 </p>
 <p>
-<b>Header set Referrer-Policy (SERVIDOR)</b><br>
-Significa que el navegador enviará la información de referencia cuando se navega de un sitio seguro (HTTPS) a uno no seguro (HTTP).
-</p>
-<p>
 <b>JSON Web Token (Frontend/Backend)</b><br>
 Encriptación de datos para la transmisión de información entre el Frontend y Backend.
 </p>
 
-## Modulos Pasos)
+## Modulos (Pasos)
 <p>
 La aplicación cuenta con 3 pasos, En el paso 1 es donde se obtiene los datos del alumno y boleta ya sea con el API Peru dni o manualmente luego en el paso 2 se procede con el registro del ciclo donde al ser completado quedara preinscrito y finalmente el paso 3 se procedera con el pago usando la pasarela de pago Culqi, Una vez completado el pago se generara la matricula, la creacion de su correo y se le enviara un correo con sus credenciales.
 </p>
@@ -105,8 +101,20 @@ La aplicación cuenta con 3 pasos, En el paso 1 es donde se obtiene los datos de
 	<li>Paso 3: Registro de Pago</li>
 </ul>
 
-## Pasarela de pago
+## Integración de servicios 
+<p>
+<b>Pasarela de pago</b>
 Culqi es una pasarela de pago que facilita el procesamiento de transacciones en línea, ofreciendo seguridad, facilidad de integración y diversas opciones de pago ya sea tarjeta de crédito, débito o Pago efectivo. 
+</p>
+<p>
+<b>API Peru Dni</b>
+Es un API que te permite acceder a información relacionada con los ciudadanos peruanos a través de su número de DNI. Esto podría incluir la validación de números de DNI, la obtención de datos básicos de un individuo a partir de su DNI (como nombres, apellidos, direccion, ubigeo, etc)
+</p>
+<p>
+<b>API Google (OAuth)</b>
+Una API de Google OAuth permite que los desarrolladores autentiquen usuarios y obtengan autorización para acceder a los datos y recursos de esos usuarios de manera segura y poder gestionar la cuenta en mencion.
+</p>
+
 
 ## Diagrama de flujo
 
