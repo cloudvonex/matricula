@@ -14,6 +14,7 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
     <li><a href="#tecnologia">Tecnologías</a></li>
     <li><a href="#librerias">Librerias</a></li>
     <li><a href="#seguridad">Seguridad</a></li>
+    <li><a href="#variables">Variables de entorno</a></li>
     <li><a href="#modulos">Módulos</a></li>
     <li><a href="#pasarela">Integración de servicios</a></li>
     <li><a href="#diagrama">Diagrama de flujo</a></li>
@@ -98,6 +99,19 @@ Header set Referrer-Policy: "no-referrer-when-downgrade"
 
 <b>JSON Web Token (Frontend/Backend)</b><br>
 Encriptación de datos para la transmisión de información entre el Frontend y Backend.
+</p>
+
+## VARIABLES DE ENTORNO
+<p>
+<b>CULQUI_SECRET_KEY:</b> token secreto de culqi 
+</p>
+
+<p>
+<b>CULQUI_PUBLIC_KEY:</b> token publico de culqi 
+</p>
+
+<p>
+<b>CULQUI_PREFIJO_ID:</b> prefijo de identificación de las transacciones para la BD.
 </p>
 
 ## MODULOS (PASOS)
