@@ -8,7 +8,7 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
 </p>
 </div>
 
-</br></br>
+</br>
 
 ## ÍNDICE
 <ul>
@@ -22,6 +22,7 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
     <li><a href="#diagrama">Diagrama de flujo</a></li>
   </ul>
 
+</br>
 
 ## REQUERIMIENTOS (SERVIDOR)
 <b>Php 8.1</b>
@@ -38,11 +39,14 @@ sudo apt install postgresql-contrib
 sudo a2enmod headers
 ```
 
+</br>
 
 ## TECNOLOGÍAS
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> Laravel 10
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> Vue 3
+
+</br>
 
 ## LIBRERIAS
 <ul>
@@ -53,6 +57,8 @@ sudo a2enmod headers
 	<li>Toastr</li>
 	<li>Crypto-js</li>
 </ul>
+
+</br>
 
 ## SEGURIDAD
 <p>
@@ -105,6 +111,8 @@ Header set Referrer-Policy: "no-referrer-when-downgrade"
 Encriptación de datos para la transmisión de información entre el Frontend y Backend.
 </p>
 
+</br>
+
 ## VARIABLES DE ENTORNO
 <p>
 <b>CULQUI_SECRET_KEY:</b> token secreto de culqi.
@@ -122,6 +130,8 @@ Encriptación de datos para la transmisión de información entre el Frontend y 
 <b>API_PERU_DNI:</b> token para la conexion con el Api Peru DNI.
 </p>
 
+</br>
+
 ## MODULOS (PASOS)
 <p>
 La aplicación cuenta con 3 pasos, En el paso 1 es donde se obtiene los datos del alumno y boleta ya sea con el API Peru dni o manualmente luego en el paso 2 se procede con el registro del ciclo donde al ser completado quedara preinscrito y finalmente el paso 3 se procedera con el pago usando la pasarela de pago Culqi, Una vez completado el pago se generara la matricula, la creacion de su correo y se le enviara un correo con sus credenciales.
@@ -131,6 +141,8 @@ La aplicación cuenta con 3 pasos, En el paso 1 es donde se obtiene los datos de
 	<li>Paso 2: Registro de ciclo</li>
 	<li>Paso 3: Registro de Pago</li>
 </ul>
+
+</br>
 
 ## INTEGRACIÓN DE SERVICIOS
 <p>
@@ -146,6 +158,7 @@ Es un API que te permite acceder a información relacionada con los ciudadanos p
 Una API de Google OAuth permite que los desarrolladores autentiquen usuarios y obtengan autorización para acceder a los datos y recursos de esos usuarios de manera segura y poder gestionar la cuenta en mencion.
 </p>
 
+</br>
 
 ## DIAGRAMA DE FLUJO
 
