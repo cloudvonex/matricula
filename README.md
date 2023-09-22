@@ -103,15 +103,19 @@ Encriptación de datos para la transmisión de información entre el Frontend y 
 
 ## VARIABLES DE ENTORNO
 <p>
-<b>CULQUI_SECRET_KEY:</b> token secreto de culqi 
+<b>CULQUI_SECRET_KEY:</b> token secreto de culqi.
 </p>
 
 <p>
-<b>CULQUI_PUBLIC_KEY:</b> token publico de culqi 
+<b>CULQUI_PUBLIC_KEY:</b> token publico de culqi.
 </p>
 
 <p>
-<b>CULQUI_PREFIJO_ID:</b> prefijo de identificación de las transacciones para la BD.
+<b>CULQUI_PREFIJO_ID:</b> prefijo de identificación(id) en las transacciones por matricula de la BD.
+</p>
+
+<p>
+<b>API_PERU_DNI:</b> token para la conexion con el Api Peru DNI.
 </p>
 
 ## MODULOS (PASOS)
