@@ -168,7 +168,7 @@ Una API de Google OAuth permite que los desarrolladores autentiquen usuarios y o
 
 </br>
 
-## COLABORADORES DE PROYECTO
+## COLABORADORES
 Fredy Rojas
 </br>
 Jean Cuadros
