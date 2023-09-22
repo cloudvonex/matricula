@@ -20,22 +20,19 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
   </ul>
 
 ## REQUERIMIENTOS (SERVIDOR)
-<ul>
-    <li>Php 8.1</li>
-	<li>
-		```
+<b>Php 8.1</b>
+```
 sudo apt install -y bcmath xml fpm mysql zip intl ldap gd cli bz2 curl mbstring pgsql opcache soap cgi
 ```
+<b>Postgresql</b>
+```
+sudo apt install postgresql-contrib
+```
 
-    <li>Postgresql</li>
-		<ul>
-			<li>apt install postgresql-contrib</li>
-		</ul>
-    <li>Headers</li>
-		<ul>
-			<li>a2enmod headers</li>
-		</ul>
-  </ul>
+<b>Headers</b>
+```
+sudo a2enmod headers
+```
 
 ## TECNOLOGÍAS
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> Laravel 10
