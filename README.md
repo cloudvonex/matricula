@@ -148,3 +148,6 @@ Una API de Google OAuth permite que los desarrolladores autentiquen usuarios y o
 <div align="center">
     <img src="diagrama.jpg" alt="Logo" width="500" height="480">
 </div>
+
+## COLABORADORES DE PROYECTO
+Fredy Rojas
