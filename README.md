@@ -54,9 +54,11 @@ sudo a2enmod headers
 <b>Header always append X-Frame-Options (SERVIDOR)</b><br>
 Para prevenir ataques de incrustación de contenido desde otros dominios.
 </p>
+
 ```
 Header always append X-Frame-Options SAMEORIGIN
 ```
+
 <p>
 <b>Header set X-Content-Type-Options (SERVIDOR)</b><br>
 Esto ayuda a prevenir ataques de tipo MIME sniffing, donde un navegador intenta adivinar el tipo de contenido de un archivo.
