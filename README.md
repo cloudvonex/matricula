@@ -63,31 +63,39 @@ Header always append X-Frame-Options SAMEORIGIN
 <b>Header set X-Content-Type-Options (SERVIDOR)</b><br>
 Esto ayuda a prevenir ataques de tipo MIME sniffing, donde un navegador intenta adivinar el tipo de contenido de un archivo.
 </p>
+
 ```
 Header set X-Content-Type-Options nosniff
 ```
+
 <p>
 <b>Header set X-XSS-Protection (SERVIDOR)</b><br>
 Ayuda a proteger contra ataques de scripting entre sitios (XSS).
 </p>
+
 ```
 Header set X-XSS-Protection "1; mode=block"
 ```
+
 <p>
 <b>Header set Strict-Transport-Security (SERVIDOR)</b><br>
 Obliga al navegador a utilizar una conexión segura (HTTPS) en lugar de HTTP.
 </p>
+
 ```
 Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 ```
+
 <p>
 <b>Header set Referrer-Policy (SERVIDOR)</b><br>
 Significa que el navegador enviará la información de referencia cuando se navega de un sitio seguro (HTTPS) a uno no seguro (HTTP).
 </p>
 <p>
+	
 ```
 Header set Referrer-Policy: "no-referrer-when-downgrade"
 ```
+
 <b>JSON Web Token (Frontend/Backend)</b><br>
 Encriptación de datos para la transmisión de información entre el Frontend y Backend.
 </p>
