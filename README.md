@@ -26,7 +26,7 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
 		```
 sudo apt install -y bcmath xml fpm mysql zip intl ldap gd cli bz2 curl mbstring pgsql opcache soap cgi
 ```
-	</li>
+
     <li>Postgresql</li>
 		<ul>
 			<li>apt install postgresql-contrib</li>
