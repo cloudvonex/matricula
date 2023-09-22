@@ -8,6 +8,7 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
 </p>
 </div>
 
+</br></br>
 
 ## ÍNDICE
 <ul>
