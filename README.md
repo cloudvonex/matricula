@@ -22,24 +22,11 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
 ## REQUERIMIENTOS (SERVIDOR)
 <ul>
     <li>Php 8.1</li>
-		<ul>
-			<li>apt bcmath</li>
-			<li>apt xml</li>
-			<li>apt fpm</li>
-			<li>apt mysql</li>
-			<li>apt zip</li>
-			<li>apt intl</li>
-			<li>apt ldap</li>
-			<li>apt gd</li>
-			<li>apt cli</li>
-			<li>apt bz2</li>
-			<li>apt curl</li>
-			<li>apt mbstring</li>
-			<li>apt pgsql</li>
-			<li>apt opcache</li>
-			<li>apt soap</li>
-			<li>apt cgi</li>
-		</ul>
+	<li>
+		```
+sudo apt install -y bcmath xml fpm mysql zip intl ldap gd cli bz2 curl mbstring pgsql opcache soap cgi
+```
+	</li>
     <li>Postgresql</li>
 		<ul>
 			<li>apt install postgresql-contrib</li>
