@@ -8,6 +8,7 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
 </p>
 </div>
 
+
 ## ÍNDICE
 <ul>
     <li><a href="#requerimientos">Requerimientos</a></li>
@@ -19,6 +20,7 @@ Es una aplicación dedicada al registro de inscripciones de estudiantes para la 
     <li><a href="#pasarela">Integración de servicios</a></li>
     <li><a href="#diagrama">Diagrama de flujo</a></li>
   </ul>
+
 
 ## REQUERIMIENTOS (SERVIDOR)
 <b>Php 8.1</b>
@@ -34,6 +36,7 @@ sudo apt install postgresql-contrib
 ```
 sudo a2enmod headers
 ```
+
 
 ## TECNOLOGÍAS
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> Laravel 10
