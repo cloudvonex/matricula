@@ -193,7 +193,7 @@ La aplicación cuenta con 3 pasos, En el paso 1 es donde se obtiene los datos de
 Culqi es una pasarela de pago que facilita el procesamiento de transacciones en línea, ofreciendo seguridad, facilidad de integración y diversas opciones de pago ya sea tarjeta de crédito, débito o Pago efectivo. 
 </p>
 <p>
-<b>API Peru Dni</b>
+<b>API Peru (Dni)</b>
 Es un API que te permite acceder a información relacionada con los ciudadanos peruanos a través de su número de DNI. Esto podría incluir la validación de números de DNI, la obtención de datos básicos de un individuo a partir de su DNI (como nombres, apellidos, direccion, ubigeo, etc)
 </p>
 <p>
