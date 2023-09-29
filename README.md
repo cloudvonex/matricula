@@ -46,27 +46,27 @@ sudo a2enmod headers
 </br>
 
 ## TECNOLOGÍAS
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> Laravel 10
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> Laravel 10.10
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> Vue 3
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> Vue 3.3.4
 
 </br>
 
 ## LIBRERIAS
 <ul>
-    <li>Bootstrap</li>
-	<li>Font Awesome</li>
-	<li>Axios</li>
-	<li>SweetAlert2</li>
-	<li>Toastr</li>
-	<li>Crypto-js</li>
+    <li>Bootstrap 4</li>
+	<li>Font Awesome 5</li>
+	<li>Axios 0.19</li>
+	<li>SweetAlert2 2</li>
+	<li>Toastr 2</li>
+	<li>Crypto-js 3</li>
 </ul>
 
 </br>
 
 ## SEGURIDAD
 <p>
-<b>Header always append X-Frame-Options (CONF)</b><br>
+<b>Header always append X-Frame-Options</b><br>
 Para prevenir ataques de incrustación de contenido desde otros dominios.
 </p>
 
@@ -75,7 +75,7 @@ Header always append X-Frame-Options SAMEORIGIN
 ```
 
 <p>
-<b>Header set X-Content-Type-Options (CONF)</b><br>
+<b>Header set X-Content-Type-Options</b><br>
 Esto ayuda a prevenir ataques de tipo MIME sniffing, donde un navegador intenta adivinar el tipo de contenido de un archivo.
 </p>
 
@@ -84,7 +84,7 @@ Header set X-Content-Type-Options nosniff
 ```
 
 <p>
-<b>Header set X-XSS-Protection (CONF)</b><br>
+<b>Header set X-XSS-Protection</b><br>
 Ayuda a proteger contra ataques de scripting entre sitios (XSS).
 </p>
 
@@ -93,7 +93,7 @@ Header set X-XSS-Protection "1; mode=block"
 ```
 
 <p>
-<b>Header set Strict-Transport-Security (CONF)</b><br>
+<b>Header set Strict-Transport-Security</b><br>
 Obliga al navegador a utilizar una conexión segura (HTTPS) en lugar de HTTP.
 </p>
 
@@ -102,7 +102,7 @@ Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 ```
 
 <p>
-<b>Header set Referrer-Policy (CONF)</b><br>
+<b>Header set Referrer-Policy</b><br>
 Significa que el navegador enviará la información de referencia cuando se navega de un sitio seguro (HTTPS) a uno no seguro (HTTP).
 </p>
 <p>
@@ -131,7 +131,46 @@ Encriptación de datos para la transmisión de información entre el Frontend y 
 </p>
 
 <p>
-<b>API_PERU_DNI:</b> token para la conexion con el Api Peru DNI.
+<b>API_PERU_DNI_URL:</b> dominio de api Peru dni.
+</p>
+
+<p>
+<b>API_PERU_DNI_TOKEN:</b> token de seguridad de api Peru dni.
+</p>
+
+<p>
+<b>CRYPTO_SECRET_KEY:</b> token de encriptación de datos.
+</p>
+
+<p>
+<b>INSTITUCION:</b> Nombre de empresa.
+</p>
+<p>
+<b>DIRECCION:</b> Dirección de empresa.
+</p>
+
+<p>
+<b>EMPRESA:</b> Razón social de empresa.
+</p>
+
+<p>
+<b>RUC:</b> Ruc de empresa.
+</p>
+
+<p>
+<b>FACTURADOR:</b> Dominio de app facturador.
+</p>
+
+<p>
+<b>CORREO:</b> Nombre de dominio de correo.
+</p>
+
+<p>
+<b>LINK_WA_SOPORTE:</b> Link whatsapp de soporte.
+</p>
+
+<p>
+<b>NUMERO_WA_SOPORTE:</b> Numero de whatsapp de soporte.
 </p>
 
 </br>
@@ -150,7 +189,7 @@ La aplicación cuenta con 3 pasos, En el paso 1 es donde se obtiene los datos de
 
 ## INTEGRACIÓN DE SERVICIOS
 <p>
-<b>Pasarela de pago</b>
+<b>Pasarela de pago (Culqi Checkout V4)</b>
 Culqi es una pasarela de pago que facilita el procesamiento de transacciones en línea, ofreciendo seguridad, facilidad de integración y diversas opciones de pago ya sea tarjeta de crédito, débito o Pago efectivo. 
 </p>
 <p>
