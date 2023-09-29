@@ -57,7 +57,7 @@ sudo a2enmod headers
     <li>Bootstrap 4</li>
 	<li>Font Awesome 5</li>
 	<li>Axios 0.19</li>
-	<li>SweetAlert2 2</li>
+	<li>SweetAlert 2</li>
 	<li>Toastr 2</li>
 	<li>Crypto-js 3</li>
 </ul>
