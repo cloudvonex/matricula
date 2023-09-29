@@ -118,29 +118,6 @@ Encriptación de datos para la transmisión de información entre el Frontend y 
 </br>
 
 ## VARIABLES DE ENTORNO
-<p>
-<b>CULQUI_SECRET_KEY:</b> token secreto de culqi.
-</p>
-
-<p>
-<b>CULQUI_PUBLIC_KEY:</b> token publico de culqi.
-</p>
-
-<p>
-<b>CULQUI_PREFIJO_ID:</b> prefijo de identificación(id) en las transacciones por matricula de la BD.
-</p>
-
-<p>
-<b>API_PERU_DNI_URL:</b> dominio de api Peru dni.
-</p>
-
-<p>
-<b>API_PERU_DNI_TOKEN:</b> token de seguridad de api Peru dni.
-</p>
-
-<p>
-<b>CRYPTO_SECRET_KEY:</b> token de encriptación de datos.
-</p>
 
 <p>
 <b>INSTITUCION:</b> Nombre de empresa.
@@ -171,6 +148,31 @@ Encriptación de datos para la transmisión de información entre el Frontend y 
 
 <p>
 <b>NUMERO_WA_SOPORTE:</b> Numero de whatsapp de soporte.
+</p>
+
+</br>
+<p>
+<b>CULQUI_SECRET_KEY:</b> token secreto de culqi.
+</p>
+
+<p>
+<b>CULQUI_PUBLIC_KEY:</b> token publico de culqi.
+</p>
+
+<p>
+<b>CULQUI_PREFIJO_ID:</b> prefijo de identificación(id) en las transacciones por matricula de la BD.
+</p>
+
+<p>
+<b>API_PERU_DNI_URL:</b> dominio de api Peru dni.
+</p>
+
+<p>
+<b>API_PERU_DNI_TOKEN:</b> token de seguridad de api Peru dni.
+</p>
+
+<p>
+<b>CRYPTO_SECRET_KEY:</b> token de encriptación de datos.
 </p>
 
 </br>
